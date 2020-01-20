@@ -1,0 +1,26 @@
+{
+    "name": "babtech/module-customattribute",
+    "description": "",
+    "type": "magento2-module",
+    "license": "proprietary",
+    "authors": [
+        {
+            "email": "info@babtechsolutions.com",
+            "name": "BabTech"
+        },
+        {
+            "email": "satendra.tyagi1986@gmail.com",
+            "name": "satendra tyagi"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Babtech\\Customattribute\\": ""
+        },
+        "files": [
+            "registration.php"
+        ]
+    }
+}
